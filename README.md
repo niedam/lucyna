@@ -42,5 +42,6 @@ Wyróżniamy następujące polecenia sterujące:
 * `%term` - powoduje włączenie trybu wyszukiwania pojedyńczego termu
 * `%phrase` - powoduje wybranie trybu wyszukiwania frazy, czyli ciągu termów
 * `%fuzzy` - powoduje wybranie tryby wyszukiwania rozmytego
+
 Trybom wyszukiwania odpowiadają klasy z biblioteki Lucene: `TermQuery`, `PhraseQuery`, `FuzzyQuery`
 
